@@ -1,0 +1,33 @@
+# Archivos generados por Maven y los scripts
+/target/
+/build/
+/dist/
+/bench/
+/resultados/
+/latex/
+/test-duration/
+/out/
+*.pdf
+*.log
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+__pycache__/
+*.py[cod]
+
+# Configuración local del IDE y del sistema
+/.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Configuración y credenciales locales
+.env
+.env.*
+!.env.example
+*.pem
+*.key

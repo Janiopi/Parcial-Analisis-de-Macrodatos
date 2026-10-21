@@ -1,0 +1,16 @@
+mode	query	repetition	seconds	output
+cluster	duration	1	93.475	/user/master/cc531/bench-01/salidas/cluster/duration/run-1
+cluster	duration	2	101.782	/user/master/cc531/bench-01/salidas/cluster/duration/run-2
+cluster	duration	3	90.259	/user/master/cc531/bench-01/salidas/cluster/duration/run-3
+cluster	interruption	1	92.654	/user/master/cc531/bench-01/salidas/cluster/interruption/run-1
+cluster	interruption	2	98.599	/user/master/cc531/bench-01/salidas/cluster/interruption/run-2
+cluster	interruption	3	100.786	/user/master/cc531/bench-01/salidas/cluster/interruption/run-3
+cluster	dbscan	1	483.922	/user/master/cc531/bench-01/salidas/cluster/dbscan/run-1
+cluster	dbscan	2	494.933	/user/master/cc531/bench-01/salidas/cluster/dbscan/run-2
+cluster	dbscan	3	484.625	/user/master/cc531/bench-01/salidas/cluster/dbscan/run-3
+cluster	mlp-class	1	1711.524	/user/master/cc531/bench-01/salidas/cluster/mlp-class/run-1
+cluster	mlp-class	2	1706.721	/user/master/cc531/bench-01/salidas/cluster/mlp-class/run-2
+cluster	mlp-class	3	1705.606	/user/master/cc531/bench-01/salidas/cluster/mlp-class/run-3
+cluster	mlp-reg	1	1668.972	/user/master/cc531/bench-01/salidas/cluster/mlp-reg/run-1
+cluster	mlp-reg	2	1669.284	/user/master/cc531/bench-01/salidas/cluster/mlp-reg/run-2
+cluster	mlp-reg	3	1903.514	/user/master/cc531/bench-01/salidas/cluster/mlp-reg/run-3

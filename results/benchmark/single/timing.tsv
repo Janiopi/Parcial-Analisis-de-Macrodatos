@@ -1,0 +1,16 @@
+mode	query	repetition	seconds	output
+single	duration	1	128.793	/user/master/cc531/bench-01/salidas/single/duration/run-1
+single	duration	2	126.367	/user/master/cc531/bench-01/salidas/single/duration/run-2
+single	duration	3	130.836	/user/master/cc531/bench-01/salidas/single/duration/run-3
+single	interruption	1	131.938	/user/master/cc531/bench-01/salidas/single/interruption/run-1
+single	interruption	2	126.506	/user/master/cc531/bench-01/salidas/single/interruption/run-2
+single	interruption	3	120.742	/user/master/cc531/bench-01/salidas/single/interruption/run-3
+single	dbscan	1	550.769	/user/master/cc531/bench-01/salidas/single/dbscan/run-1
+single	dbscan	2	553.152	/user/master/cc531/bench-01/salidas/single/dbscan/run-2
+single	dbscan	3	577.645	/user/master/cc531/bench-01/salidas/single/dbscan/run-3
+single	mlp-class	1	25104.188	/user/master/cc531/bench-01/salidas/single/mlp-class/run-1
+single	mlp-class	2	2531.292	/user/master/cc531/bench-01/salidas/single/mlp-class/run-2
+single	mlp-class	3	2516.170	/user/master/cc531/bench-01/salidas/single/mlp-class/run-3
+single	mlp-reg	1	2452.002	/user/master/cc531/bench-01/salidas/single/mlp-reg/run-1
+single	mlp-reg	2	2486.667	/user/master/cc531/bench-01/salidas/single/mlp-reg/run-2
+single	mlp-reg	3	2438.715	/user/master/cc531/bench-01/salidas/single/mlp-reg/run-3

@@ -1,0 +1,2 @@
+test	n=268	loss=0.683213	accuracy=0.593284	precision=0.283333	recall=0.596491	F1=0.384181
+train	n=1094	loss=0.676617	accuracy=0.671846	precision=0.363445	recall=0.755459	F1=0.490780

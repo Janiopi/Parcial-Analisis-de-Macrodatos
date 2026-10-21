@@ -1,0 +1,4 @@
+Archivo original local: bench/single/mlp-class-1.log
+Mayor intervalo sin mensajes con fecha: 22573.092 segundos
+Último mensaje antes del intervalo: línea 1063, 2026-10-20 05:01:49.475000
+Primer mensaje después del intervalo: línea 1064, 2026-10-20 11:18:02.567000
