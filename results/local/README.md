@@ -12,4 +12,4 @@ Fuente: CSV incluido en la raíz del proyecto. Hadoop 3.3.0, `fs.defaultFS=file:
 
 Las salidas principales se conservan en subdirectorios vecinos. `powerbi/emergencias_clusters.csv` contiene los 1362 puntos con sus grupos. El verificador `scripts/verify_outputs.py` comprobó las tablas y los grupos contra cálculos independientes, además del descenso de las pérdidas de entrenamiento.
 
-Esta ejecución local no mide tiempos, CPU, memoria ni speedup comparables. Las mediciones posteriores de uno y varios nodos se documentan en [RESULTADOS_BENCHMARK.md](../../RESULTADOS_BENCHMARK.md).
+Esta ejecución local no mide tiempos, CPU, memoria ni speedup comparables. Las mediciones posteriores de uno y varios nodos se documentan en [RESULTADOS_BENCHMARK.md](../../docs/RESULTADOS_BENCHMARK.md).

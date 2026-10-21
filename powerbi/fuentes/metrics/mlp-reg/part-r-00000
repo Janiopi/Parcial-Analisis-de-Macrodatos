@@ -1,2 +1,0 @@
-test	n=243	loss=0.027163	MAE_days=13.518356	RMSE_days=24.372828
-train	n=993	loss=0.032392	MAE_days=14.275179	RMSE_days=24.478702
