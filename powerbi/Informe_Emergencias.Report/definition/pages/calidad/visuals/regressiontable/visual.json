@@ -1,0 +1,83 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "regressiontable",
+  "position": {
+    "x": 450,
+    "y": 320,
+    "z": 1000,
+    "height": 268,
+    "width": 380,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Regresion"
+                    }
+                  },
+                  "Property": "Ejecucion"
+                }
+              },
+              "queryRef": "Regresion.Ejecucion",
+              "nativeQueryRef": "Ejecucion",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Regresion"
+                    }
+                  },
+                  "Property": "Perdida"
+                }
+              },
+              "queryRef": "Regresion.Perdida",
+              "nativeQueryRef": "Perdida",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Regresion"
+                    }
+                  },
+                  "Property": "MAE_dias"
+                }
+              },
+              "queryRef": "Regresion.MAE_dias",
+              "nativeQueryRef": "MAE_dias",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Regresion"
+                    }
+                  },
+                  "Property": "RMSE_dias"
+                }
+              },
+              "queryRef": "Regresion.RMSE_dias",
+              "nativeQueryRef": "RMSE_dias",
+              "active": true
+            }
+          ]
+        }
+      }
+    }
+  }
+}

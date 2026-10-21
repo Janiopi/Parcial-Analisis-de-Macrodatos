@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Informe_Emergencias"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "d6a762d1-8eec-44a6-898f-a06bb2c2dc0f"
+  }
+}

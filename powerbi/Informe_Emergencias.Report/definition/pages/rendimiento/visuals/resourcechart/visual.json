@@ -1,0 +1,126 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "resourcechart",
+  "position": {
+    "x": 31,
+    "y": 398,
+    "z": 1000,
+    "height": 250,
+    "width": 1209,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "lineClusteredColumnComboChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Rendimiento"
+                    }
+                  },
+                  "Property": "Consulta"
+                }
+              },
+              "queryRef": "Rendimiento.Consulta",
+              "nativeQueryRef": "Consulta",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Rendimiento"
+                        }
+                      },
+                      "Property": "CPU_cluster_pct"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(Rendimiento.CPU_cluster_pct)",
+              "nativeQueryRef": "Sum of CPU_cluster_pct",
+              "active": true
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Rendimiento"
+                        }
+                      },
+                      "Property": "CPU_single_pct"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(Rendimiento.CPU_single_pct)",
+              "nativeQueryRef": "Sum of CPU_single_pct",
+              "active": true
+            }
+          ]
+        },
+        "Y2": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Rendimiento"
+                        }
+                      },
+                      "Property": "RAM_cluster_MiB"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(Rendimiento.RAM_cluster_MiB)",
+              "nativeQueryRef": "Sum of RAM_cluster_MiB",
+              "active": true
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Rendimiento"
+                        }
+                      },
+                      "Property": "RAM_single_MiB"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(Rendimiento.RAM_single_MiB)",
+              "nativeQueryRef": "Sum of RAM_single_MiB",
+              "active": true
+            }
+          ]
+        }
+      }
+    }
+  }
+}

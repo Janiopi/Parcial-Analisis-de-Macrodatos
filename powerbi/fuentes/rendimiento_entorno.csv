@@ -1,0 +1,11 @@
+Consulta,Entorno,Tiempo_s,CPU_pct,RAM_MiB
+Duración,Clúster,93.475,37.4,992.2
+Duración,Un nodo,128.793,73.2,1554.9
+Interrupción,Clúster,98.599,35.4,1005.5
+Interrupción,Un nodo,126.506,73.1,1550.1
+DBSCAN,Clúster,484.625,32.2,1009.2
+DBSCAN,Un nodo,553.152,68.4,1512.9
+MLP clasificación,Clúster,1706.721,43.2,1067.6
+MLP clasificación,Un nodo,2531.292,72.9,1552.6
+MLP regresión,Clúster,1669.284,43.9,1064.0
+MLP regresión,Un nodo,2452.002,73.0,1554.2

@@ -1,0 +1,83 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "dbscanqualitytable",
+  "position": {
+    "x": 869,
+    "y": 320,
+    "z": 1000,
+    "height": 268,
+    "width": 380,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Agrupamiento"
+                    }
+                  },
+                  "Property": "Ejecucion"
+                }
+              },
+              "queryRef": "Agrupamiento.Ejecucion",
+              "nativeQueryRef": "Ejecucion",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Agrupamiento"
+                    }
+                  },
+                  "Property": "Grupos"
+                }
+              },
+              "queryRef": "Agrupamiento.Grupos",
+              "nativeQueryRef": "Grupos",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Agrupamiento"
+                    }
+                  },
+                  "Property": "Ruido"
+                }
+              },
+              "queryRef": "Agrupamiento.Ruido",
+              "nativeQueryRef": "Ruido",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Agrupamiento"
+                    }
+                  },
+                  "Property": "Davies_Bouldin"
+                }
+              },
+              "queryRef": "Agrupamiento.Davies_Bouldin",
+              "nativeQueryRef": "Davies_Bouldin",
+              "active": true
+            }
+          ]
+        }
+      }
+    }
+  }
+}

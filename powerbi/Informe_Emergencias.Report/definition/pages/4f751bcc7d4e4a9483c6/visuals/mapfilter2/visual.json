@@ -1,0 +1,73 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "mapfilter2",
+  "position": {
+    "x": 29,
+    "y": 312,
+    "z": 1000,
+    "height": 87,
+    "width": 205,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "slicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Emergencias"
+                    }
+                  },
+                  "Property": "ESTADO_INICIAL"
+                }
+              },
+              "queryRef": "Emergencias.ESTADO_INICIAL",
+              "nativeQueryRef": "ESTADO_INICIAL",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "data": [
+        {
+          "properties": {
+            "mode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Dropdown'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "header": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Estado inicial'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

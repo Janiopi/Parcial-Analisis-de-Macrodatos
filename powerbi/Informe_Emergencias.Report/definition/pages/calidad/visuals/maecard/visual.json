@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "maecard",
+  "position": {
+    "x": 450,
+    "y": 137,
+    "z": 1000,
+    "height": 113,
+    "width": 380,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "cardVisual",
+    "query": {
+      "queryState": {
+        "Data": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Regresion"
+                    }
+                  },
+                  "Property": "MAE prueba"
+                }
+              },
+              "queryRef": "Regresion.MAE prueba",
+              "nativeQueryRef": "MAE prueba",
+              "active": true
+            }
+          ]
+        }
+      }
+    }
+  }
+}

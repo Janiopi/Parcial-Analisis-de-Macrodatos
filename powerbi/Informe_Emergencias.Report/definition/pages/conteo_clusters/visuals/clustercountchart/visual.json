@@ -1,0 +1,85 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "clustercountchart",
+  "position": {
+    "x": 31,
+    "y": 108,
+    "z": 1000,
+    "height": 489,
+    "width": 1210,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "clusteredColumnChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ConteoClusters"
+                    }
+                  },
+                  "Property": "CLUSTER_ID"
+                }
+              },
+              "queryRef": "ConteoClusters.CLUSTER_ID",
+              "nativeQueryRef": "CLUSTER_ID",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "ConteoClusters"
+                        }
+                      },
+                      "Property": "Emergencias"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(ConteoClusters.Emergencias)",
+              "nativeQueryRef": "Sum of Emergencias",
+              "active": true
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "ConteoClusters"
+                      }
+                    },
+                    "Property": "Emergencias"
+                  }
+                },
+                "Function": 0
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": false
+      }
+    }
+  }
+}
